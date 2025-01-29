@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:sprints_firestore_demo/models/user_model.dart';
+import 'package:sprints_firestore_demo/screens/users_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -86,7 +87,10 @@ class HomeScreenState extends State<HomeScreen> {
                 child: Text("Save Data"),
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => UserScreen()));
+                },
                 child: Text("View Data"),
               ),
             ],
