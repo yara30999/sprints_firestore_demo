@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11087411746",
+    "project_id": "sprints-firestore-demo",
+    "storage_bucket": "sprints-firestore-demo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11087411746:android:665b95879b84e67248687b",
+        "android_client_info": {
+          "package_name": "com.example.sprints_firestore_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbLOPMzB-mG65GpsNbMmXfAcMfsE4rx9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
